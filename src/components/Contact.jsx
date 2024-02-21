@@ -1,6 +1,7 @@
 import React from "react";
 
 const Contacts = () => {
+  
   return (
     <div className="contact">
      <main>
@@ -12,7 +13,7 @@ const Contacts = () => {
         </div>
         <div>
          <label>Email</label>
-         <input type="text" required placeholder="Abc@xyz.com"/>
+         <input className="emaill" type="text" required placeholder="Abc@xyz.com"/>
         </div>
 
         <div>

@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import vg from "../assets/2.webp";
 
 import{AiFillGoogleCircle,AiFillAmazonCircle,AiFillYoutube,AiFillInstagram}from "react-icons/ai"
 const Home = () => {
+ 
   return (
  <>
     <div className="home" id="home">
@@ -27,8 +28,12 @@ const Home = () => {
     <div className="home3" id="about">
       <div>
         <h1>Who we are ?</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid ab esse accusamus, rem reprehenderit, natus reiciendis consectetur cupiditate explicabo fuga odio neque laboriosam suscipit molestiae. Assumenda cum quos ex libero suscipit eos similique consequuntur iure consequatur cumque, voluptatibus quam magni dolorum corporis optio, quis accusamus? Repudiandae nihil dolorem recusandae ipsa!</p>
-      </div>
+        <p>Ultra-fast development server: Say goodbye to sluggish development cycles. Vite's pre-bundling magic and instant HMR let you focus on coding, not waiting.
+Seamless component development: Build reusable, modular components with React's intuitive approach, promoting efficient code organization and scaling.
+State-of-the-art tooling: Prarambh DevX integrates seamlessly with the latest developer tools and build pipelines, keeping you at the forefront of the tech landscape.
+Customizable configuration: No one-size-fits-all solutions here. Adapt Prarambh DevX to your specific needs with its highly customizable configuration options.
+Extensive documentation and community: Get started quickly and stay informed with Prarambh DevX's comprehensive documentation and vibrant community of developers.</p>
+       </div>
     </div>
 
     <div className="home4" id="brands">

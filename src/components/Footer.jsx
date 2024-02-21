@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
         <div>
             <h1>Prarambh</h1>
-            <p>@all right reserved</p>   
+            <p>@all rights reserved</p>   
         </div>
 
         <div>
