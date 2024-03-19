@@ -4,9 +4,8 @@ import "./styles/contact.scss";
 import "./styles/footer.scss";
 import "./styles/header.scss";
 import "./styles/home.scss";
-import "./styles/mediaquery.scss";
-import Brand from "./components/brand";
-import Contact from "./components/Contact";
+import "./styles/mediaquery.scss";import Brands from "./components/Brands";
+import Contacts from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home";
@@ -20,9 +19,9 @@ const App = () => {
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<Contacts />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/brands" element={<Brand/>} />
+        <Route path="/brands" element={<Brands />} />
       </Routes>
       <Footer/>
     </Router>
