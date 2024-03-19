@@ -10,7 +10,7 @@ const Header = () => {
            <HashLink to={"/#home"}>Home</HashLink>
            <Link to={"/contact"}>Contact</Link>
            <HashLink to={"/#about"}>About</HashLink>
-           <Link to={"/#brands"}>Brands</Link>
+           <Link to={"/brands"}>Brands</Link>
            <Link to={"/services"}>Services</Link>
           
         </main>

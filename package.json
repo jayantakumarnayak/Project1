@@ -16,7 +16,8 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.21.1",
     "react-router-hash-link": "^2.4.3",
-    "sass": "^1.69.7"
+    "sass": "^1.69.7",
+    "toast": "^0.5.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

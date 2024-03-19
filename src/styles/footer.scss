@@ -13,11 +13,13 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content:center;
-
+        
         >h1{
             font: 700 2rem $text1;
             text-transform: uppercase;
             color: $third;
+            display: flex;
+            justify-content: start;
         }
         >p{
             font: 500 1.2rem $text1;

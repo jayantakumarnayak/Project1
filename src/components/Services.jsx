@@ -13,7 +13,7 @@ const Services = () => {
        showStatus={false} 
       showArrows={false}
       showThumbs={false}
-      interval={1000}>
+      interval={2000}>
         <div>
         <img src={img1} alt="item1" /> 
         <p className="legend">Full Stack</p>   
