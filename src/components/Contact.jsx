@@ -5,8 +5,8 @@ const Contacts = () => {
   return (
     <div className="contact">
      <main>
-      <h1>Contact Us</h1>
       <form>
+        <h1>Contact Us</h1>
         <div>
          <label>Name</label>
          <input type="text" required placeholder="Abc"/>
@@ -15,7 +15,6 @@ const Contacts = () => {
          <label>Email</label>
          <input className="email" type="email" required placeholder="Abc@xyz.com"/>
         </div>
-
         <div>
          <label>Message</label>
          <input type="text" required placeholder="Tell us about your query..."/>

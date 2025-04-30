@@ -4,8 +4,8 @@ import br3 from "../assets/br3.png";
 
 const Brands = () => {
   return (
-    <div className="contact">
-      <div class="container">
+    <div>
+      <div className="container">
         <h1>Tech Brands Supporting Our Product</h1>
         <br />
         <br />
